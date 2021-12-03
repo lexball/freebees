@@ -1,18 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
 body {
-  font-weight: 400;
+  font-weight: 450;
   font-size: 25px;
 }
 
-h3, h5 {
+h2, h3, h5, p {
   font-family: 'Old Standard';
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
   color: #132A13;
 }
 
-h5 {
+h4 {
   font-family:'Old Standard', cursive;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 450;
+}
+
+.item-show {
+  border: solid 6px #132a1b; 
+  width: 33%;
+  height:0;
+  padding-bottom: 15%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 1%;
+  margin-bottom: 2%;
+  justify-content: center;
+  align-items: center;
+  border-radius: .75em;
 }
