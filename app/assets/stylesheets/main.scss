@@ -30,3 +30,21 @@ h4 {
   align-items: center;
   border-radius: .75em;
 }
+
+.field, .actions {
+  margin-left: 2rem;
+  width: 50%;
+  color: white;
+  font-family: 'Old Standard';
+  font-weight: 500;
+}
+
+button {
+  border: solid 2px #3A506B;
+  border-radius: 5px;
+}
+.drop-down {
+  margin-left: 2rem;
+  width: 50%;
+
+}

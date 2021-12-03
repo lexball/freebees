@@ -14,8 +14,8 @@
   </div>
 
   <div class="field">
-    <%= f.label :fullname %><br />
-    <%= f.text_field :fullname, autofocus: true, autocomplete: "full name" %>
+    <%= f.label :fullname, "Full Name" %><br />
+    <%= f.text_field :fullname, autofocus: true, autocomplete: "Full Name" %>
   </div>
 
   <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>

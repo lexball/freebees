@@ -22,8 +22,12 @@ const ItemsIndex = () => {
     fetchItems()
   }, [])
 
+  const filterItemById = (id) => {
+    setFetchedItems(fetchItems.filter(item => item.id!== id))
+  }
+
   const items = fetchedItems.map((items) => {
-    return <ItemTile key={items.id} item={items} />
+    return <ItemTile filterItemById={filterItemById} key={items.id} item={items} />
   })
   return (
     <div className="grid-container">

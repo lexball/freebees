@@ -14,16 +14,10 @@ class ApplicationController < ActionController::Base
     end
   end
 
-  def authorize_user
-    if !user_signed_in? || !current_user.admin?
-      render json: {error: ["Access requires admin privilege!"]}
-    end
-  end
-  
   protected 
 
   def configure_permitted_parameters
-    devise_parameter_sanitizer.permit(:sign_up, keys: [:username, :fullname])
+    devise_parameter_sanitizer.permit(:sign_up, keys: [:username, :fullname, :email])
   end
 
 end
