@@ -1,5 +1,5 @@
 .item-tile, .callout.secondary {
-  border: solid 8px #262a13; 
+  border: solid 8px #1C2541; 
   width: 33%;
   height:0;
   padding-bottom: 25%;
@@ -9,9 +9,14 @@
   justify-content: center;
   align-items: center;
   border-radius: .75em; 
+  text-align: center;
 }
 .item-tile:hover {
   transition: .2s;
-  background-color: #132A13;
-  color: #Ecf39e
+  background-color: #16cfdc;
+  color: #3A506B
+}
+
+.link:hover {
+  color: #ff00d9;
 }
